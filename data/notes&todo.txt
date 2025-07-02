@@ -1,0 +1,29 @@
+Historical Odds API
+https://rapidapi.com/tipsters/api/pinnacle-odds
+-NBA League ID: 487
+-Basketball Sport ID: 3
+-All times are in timezone GMT (0)
+-EST is -5 hours of GMT
+https://oddsfe.com/
+
+BETFAIR
+https://historicdata.betfair.com/#/home
+Looks accurate
+
+
+TODO:
+graph polymarket odds vs bookie odds
+Scrape/Analyze NFL data
+Fix stoploss code
+Get started on web client
+analyze certain quarters
+    - for example find out the odds of a team favorite to win the Q1, and if it's high just invest before and sell at Q1
+stoploss program currently reacts TOO quickly to price changes. Sudden jumps in price from a huge sell means price drops for not very long meaning a unneccesary sellout.
+To fix this, either increase time interval between price readings(dumb method), or if detecting a price drop wait for 3 seconds to see if price bounces back, if not THEN sell
+
+
+TODO LIST:
+Graph polymarket vs bookie odds (use statisitcs and shit to see if betfair odds predict polymarket odds)
+backtest super simple strategy (according to kelly criterion, set stop loss to 0.5)
+
+Strategy List:
